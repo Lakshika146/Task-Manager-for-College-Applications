@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do List</title>
+  <link rel="stylesheet" href="style_todo.css" />
+</head>
+
+<body>
+	<div class="task-manager">
+		<!-- page content starts -->
+  <div class="page-content">
+	<div class="header">Task Manager</div>
+	<!-- contnet categories starts -->
+	<div class="content-categories">
+	  <div class="label-wrapper">
+		<input class="nav-item" name="nav" type="radio" id="opt-1" />
+		<a class="category" href="index.html">Home</a>
+	  </div>
+	  <div class="label-wrapper">
+		<input class="nav-item" name="nav" type="radio" id="opt-2" checked />
+		<a class="category" href="calendar.html">Calendar</a>
+	  </div>
+	  <div class="label-wrapper">
+		<input class="nav-item" name="nav" type="radio" id="opt-3" />
+		<a class="category" href="todo.html">To Do</a>
+	  </div>
+	  <div class="label-wrapper">
+		<input class="nav-item" name="nav" type="radio" id="opt-4" />
+		<a class="category" href="#blank">Blank</a>
+	  </div>
+	</div>
+	<!--  -->
+	  </div>
+  <div class="container">
+    <div class="app">
+      <h1>TO DO LIST</h1>
+      <form>
+        <input type="text" placeholder="Add new task...">
+        <button type="submit">&plus;</button>
+      </form>
+      <ul></ul>
+    </div>
+  </div>
+  <script src="todo.js"></script>
+</body>
+
+</html>

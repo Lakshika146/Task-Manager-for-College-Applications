@@ -1,0 +1,30 @@
+.page-content {
+    font-family: "Lucida Console";
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 10px 20px 0 20px;
+  }
+  .page-content .header {
+    font-size: 30px;
+    color: var(--main-color);
+    margin-top: 30px;
+  }
+  .content-categories {
+    font-size: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding:35px 0;
+  }
+  .nav-item {
+    display: none;
+  }
+  .label-wrapper a.category {
+    font-weight: 500;
+    color: var(--secondary-color);
+    transition: 0.4s ease-in;
+    padding: 20px 30px;
+    cursor: pointer;
+  }
+ 
